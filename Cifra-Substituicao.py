@@ -14,9 +14,7 @@ def Encriptar(mensagem):
         if letra in alfabeto:
            
             letra_index = alfabeto.index(letra)
-            print(letra_index)
-            
-                    
+              
             recebeAlfabeto += alfabeto_cifrado[letra_index]
             
         
